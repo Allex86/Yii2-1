@@ -16,7 +16,7 @@ use yii\widgets\ActiveForm;
 
     
     <!-- <?= $form->field($model, 'price')->textInput(['maxlength' => true]) ?> -->
-    <?= $form->field($model, 'price')->dropDownList(['111' => 'первый', '222' => 'второй', '333' => 'третий', 'Значение с ошибкой' => 'Значение с ошибкой']) ?>
+    <?= $form->field($model, 'price')->dropDownList(['111' => 'первый', '222' => 'второй', '333' => 'третий', 'Значение с ошибкой' => 'Значение с ошибкой', '1001' => 'Значение больше 1000']) ?>
 
     <?= $form->field($model, 'created_at')->textInput() ?>
 
